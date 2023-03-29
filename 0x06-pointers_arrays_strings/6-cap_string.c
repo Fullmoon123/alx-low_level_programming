@@ -18,7 +18,8 @@ while (s[i] != '\0')
 {
 for (j = 0; sep[j] != '\0' ; j++)
 if (s[i - 1] == sep[j] && (s[i] >= 'a' && s[i] <= 'z'))
-s[i] -= ('a' - 'A');i++;
+s[i] -= ('a' - 'A');
+i++;
 }
 return (s);
 }
