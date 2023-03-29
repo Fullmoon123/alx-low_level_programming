@@ -1,7 +1,7 @@
 include "main.h"
 
 /**
- *  *infinite_add - adds values of two strings together
+ *infinite_add - adds values of two strings together
  *@n1: first string of integers
  *@n2: second string of integers
  *@r: result string
