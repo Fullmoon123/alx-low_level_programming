@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- *  * count_words - counts the number of words contained in a string
- *   * @c: string to count
- *    *
- *     * Return: number of words in string
+ *  count_words - counts the number of words contained in a string
+ *  @c: string to count
+ *  
+ *  Return: number of words in string
  */
 
 int count_words(char *c)
@@ -28,10 +28,10 @@ return (n);
 }
 
 /**
- *  * strtow - splits a string into words
- *   * @str: string to split
- *    *
- *     * Return: Null if str is null,
+ *  strtow - splits a string into words
+ *  @str: string to split
+ * 
+ *  Return: Null if str is null,
  */
 
 char **strtow(char *str)
